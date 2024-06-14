@@ -1,0 +1,17 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "words": [
+        "exampleapp",
+        "jwilder",
+        "Morb",
+        "myapp",
+        "mydomain",
+        "myolddomain",
+        "philipostli"
+    ],
+    "ignoreWords": [],
+    "import": [],
+    "language": "en-GB"
+}
