@@ -1,6 +1,9 @@
 # Docker-Web-Redirect #
+![GitHub repo size](https://img.shields.io/github/repo-size/philipostli/docker-web-redirect)
+![GitHub Repo stars](https://img.shields.io/github/stars/philipostli/docker-web-redirect)
+![Docker Pulls](https://img.shields.io/docker/pulls/philipostli/docker-web-redirect)
+![Docker Stars](https://img.shields.io/docker/stars/philipostli/docker-web-redirect)
 
-<!-- ![Docker Build Status](https://img.shields.io/docker/build/morbz/docker-web-redirect.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/morbz/docker-web-redirect.svg) ![Docker Stars](https://img.shields.io/docker/stars/morbz/docker-web-redirect.svg) -->
 This project is forked from [MorbZ/docker-web-redirect](https://github.com/MorbZ/docker-web-redirect). With main goal to run as non root user in OpenShift environments, and work as Android Link redirector for https: links in e-mails.
 
 This Docker container listens on port 8080 and redirects all web traffic to the given target domain/URL. It is running as a non-root user so it can be deployed in OpenShift without privileges. It can be used for Android App Linking from e-mails as most mail clients do not allow schemas other than https: or mailto: etc.
